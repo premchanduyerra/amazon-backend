@@ -35,7 +35,7 @@ app.post("/payments/create", async (request, response) => {
         clientSecret: paymentIntent.client_secret
     })
 });
-app.listen(3001 || process.env.PORT, (req, res) => {
+app.listen(process.env.PORT, (req, res) => {
     console.log("server is running");
 })
 
