@@ -2,7 +2,7 @@
 const express = require("express");
 const cors = require("cors");
 // const { request, response } = require('express');
-const stripe = require('stripe')('sk_test_51Gv48QE8jGXUW6OU3tRBgJkZo22BEN8qD5tk9mqsbIcjcQH1hy0soHRswMqLcVTSR52VI9iO1H71XbOGTgrawYLw009BQPsy7L');
+const stripe = require('stripe')('secret keyyyyyyy');
 
 const app = express();
 app.use(cors({ origin: true }));
